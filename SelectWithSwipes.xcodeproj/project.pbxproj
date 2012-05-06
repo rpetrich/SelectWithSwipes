@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		948B50BE1556226C00F9A997 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B50BD1556226C00F9A997 /* UIKit.framework */; };
+		948B50C01556226C00F9A997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B50BF1556226C00F9A997 /* Foundation.framework */; };
+		948B50C21556226C00F9A997 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948B50C11556226C00F9A997 /* CoreGraphics.framework */; };
+		948B50C81556226C00F9A997 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 948B50C61556226C00F9A997 /* InfoPlist.strings */; };
+		948B50CA1556226D00F9A997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50C91556226C00F9A997 /* main.m */; };
+		948B50CE1556226D00F9A997 /* SWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50CD1556226D00F9A997 /* SWSAppDelegate.m */; };
+		948B50D11556226D00F9A997 /* SWSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50D01556226D00F9A997 /* SWSViewController.m */; };
+		948B50D41556226D00F9A997 /* SWSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948B50D21556226D00F9A997 /* SWSViewController.xib */; };
+		948B50DC155622F300F9A997 /* SWSGestureAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50DB155622F300F9A997 /* SWSGestureAccessoryView.m */; };
+		948B50DF1556235C00F9A997 /* SWSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50DE1556235C00F9A997 /* SWSTextView.m */; };
+		948B50E2155623F700F9A997 /* SWSGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 948B50E1155623F700F9A997 /* SWSGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		948B50B91556226C00F9A997 /* SelectWithSwipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectWithSwipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948B50BD1556226C00F9A997 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		948B50BF1556226C00F9A997 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		948B50C11556226C00F9A997 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		948B50C51556226C00F9A997 /* SelectWithSwipes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SelectWithSwipes-Info.plist"; sourceTree = "<group>"; };
+		948B50C71556226C00F9A997 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		948B50C91556226C00F9A997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		948B50CB1556226D00F9A997 /* SelectWithSwipes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SelectWithSwipes-Prefix.pch"; sourceTree = "<group>"; };
+		948B50CC1556226D00F9A997 /* SWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWSAppDelegate.h; sourceTree = "<group>"; };
+		948B50CD1556226D00F9A997 /* SWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWSAppDelegate.m; sourceTree = "<group>"; };
+		948B50CF1556226D00F9A997 /* SWSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWSViewController.h; sourceTree = "<group>"; };
+		948B50D01556226D00F9A997 /* SWSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWSViewController.m; sourceTree = "<group>"; };
+		948B50D31556226D00F9A997 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SWSViewController.xib; sourceTree = "<group>"; };
+		948B50DA155622F300F9A997 /* SWSGestureAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSGestureAccessoryView.h; sourceTree = "<group>"; };
+		948B50DB155622F300F9A997 /* SWSGestureAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSGestureAccessoryView.m; sourceTree = "<group>"; };
+		948B50DD1556235C00F9A997 /* SWSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSTextView.h; sourceTree = "<group>"; };
+		948B50DE1556235C00F9A997 /* SWSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSTextView.m; sourceTree = "<group>"; };
+		948B50E0155623F700F9A997 /* SWSGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWSGestureRecognizer.h; sourceTree = "<group>"; };
+		948B50E1155623F700F9A997 /* SWSGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWSGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		948B50B61556226C00F9A997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948B50BE1556226C00F9A997 /* UIKit.framework in Frameworks */,
+				948B50C01556226C00F9A997 /* Foundation.framework in Frameworks */,
+				948B50C21556226C00F9A997 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		948B50AE1556226C00F9A997 = {
+			isa = PBXGroup;
+			children = (
+				948B50DD1556235C00F9A997 /* SWSTextView.h */,
+				948B50DE1556235C00F9A997 /* SWSTextView.m */,
+				948B50E0155623F700F9A997 /* SWSGestureRecognizer.h */,
+				948B50E1155623F700F9A997 /* SWSGestureRecognizer.m */,
+				948B50DA155622F300F9A997 /* SWSGestureAccessoryView.h */,
+				948B50DB155622F300F9A997 /* SWSGestureAccessoryView.m */,
+				948B50C31556226C00F9A997 /* SelectWithSwipes */,
+				948B50BC1556226C00F9A997 /* Frameworks */,
+				948B50BA1556226C00F9A997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		948B50BA1556226C00F9A997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948B50B91556226C00F9A997 /* SelectWithSwipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948B50BC1556226C00F9A997 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948B50BD1556226C00F9A997 /* UIKit.framework */,
+				948B50BF1556226C00F9A997 /* Foundation.framework */,
+				948B50C11556226C00F9A997 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		948B50C31556226C00F9A997 /* SelectWithSwipes */ = {
+			isa = PBXGroup;
+			children = (
+				948B50CC1556226D00F9A997 /* SWSAppDelegate.h */,
+				948B50CD1556226D00F9A997 /* SWSAppDelegate.m */,
+				948B50CF1556226D00F9A997 /* SWSViewController.h */,
+				948B50D01556226D00F9A997 /* SWSViewController.m */,
+				948B50D21556226D00F9A997 /* SWSViewController.xib */,
+				948B50C41556226C00F9A997 /* Supporting Files */,
+			);
+			path = SelectWithSwipes;
+			sourceTree = "<group>";
+		};
+		948B50C41556226C00F9A997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				948B50C51556226C00F9A997 /* SelectWithSwipes-Info.plist */,
+				948B50C61556226C00F9A997 /* InfoPlist.strings */,
+				948B50C91556226C00F9A997 /* main.m */,
+				948B50CB1556226D00F9A997 /* SelectWithSwipes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948B50B81556226C00F9A997 /* SelectWithSwipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948B50D71556226D00F9A997 /* Build configuration list for PBXNativeTarget "SelectWithSwipes" */;
+			buildPhases = (
+				948B50B51556226C00F9A997 /* Sources */,
+				948B50B61556226C00F9A997 /* Frameworks */,
+				948B50B71556226C00F9A997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectWithSwipes;
+			productName = SelectWithSwipes;
+			productReference = 948B50B91556226C00F9A997 /* SelectWithSwipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		948B50B01556226C00F9A997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SWS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Ryan Petrich";
+			};
+			buildConfigurationList = 948B50B31556226C00F9A997 /* Build configuration list for PBXProject "SelectWithSwipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 948B50AE1556226C00F9A997;
+			productRefGroup = 948B50BA1556226C00F9A997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948B50B81556226C00F9A997 /* SelectWithSwipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948B50B71556226C00F9A997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948B50C81556226C00F9A997 /* InfoPlist.strings in Resources */,
+				948B50D41556226D00F9A997 /* SWSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948B50B51556226C00F9A997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948B50CA1556226D00F9A997 /* main.m in Sources */,
+				948B50CE1556226D00F9A997 /* SWSAppDelegate.m in Sources */,
+				948B50D11556226D00F9A997 /* SWSViewController.m in Sources */,
+				948B50DC155622F300F9A997 /* SWSGestureAccessoryView.m in Sources */,
+				948B50DF1556235C00F9A997 /* SWSTextView.m in Sources */,
+				948B50E2155623F700F9A997 /* SWSGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		948B50C61556226C00F9A997 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948B50C71556226C00F9A997 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		948B50D21556226D00F9A997 /* SWSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948B50D31556226D00F9A997 /* en */,
+			);
+			name = SWSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948B50D51556226D00F9A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		948B50D61556226D00F9A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948B50D81556226D00F9A997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectWithSwipes/SelectWithSwipes-Prefix.pch";
+				INFOPLIST_FILE = "SelectWithSwipes/SelectWithSwipes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		948B50D91556226D00F9A997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SelectWithSwipes/SelectWithSwipes-Prefix.pch";
+				INFOPLIST_FILE = "SelectWithSwipes/SelectWithSwipes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		948B50B31556226C00F9A997 /* Build configuration list for PBXProject "SelectWithSwipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948B50D51556226D00F9A997 /* Debug */,
+				948B50D61556226D00F9A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948B50D71556226D00F9A997 /* Build configuration list for PBXNativeTarget "SelectWithSwipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948B50D81556226D00F9A997 /* Debug */,
+				948B50D91556226D00F9A997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 948B50B01556226C00F9A997 /* Project object */;
+}
