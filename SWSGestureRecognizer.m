@@ -130,9 +130,8 @@ static inline CGPoint SWSAverageLocationOfActiveTouchesInView(id<NSFastEnumerati
     UITextPosition *start = range.start;
     UITextPosition *end = range.end;
     UITextRange *newRange;
-    BOOL rangeIsEmpty = [inputView comparePosition:start toPosition:end] == NSOrderedSame;
     if (ignoredSelectionTouch) {
-        if (rangeIsEmpty) {
+        if (range.isEmpty) {
             UITextPosition *newPosition = [inputView.tokenizer positionFromPosition:start toBoundary:granularity inDirection:direction];
             if (!newPosition)
                 return;
@@ -163,7 +162,7 @@ static inline CGPoint SWSAverageLocationOfActiveTouchesInView(id<NSFastEnumerati
     } else {
         UITextPosition *position = (direction == UITextStorageDirectionForward) ? end : start;
         UITextPosition *newPosition;
-        if (rangeIsEmpty) {
+        if (range.isEmpty) {
             newPosition = [inputView.tokenizer positionFromPosition:position toBoundary:granularity inDirection:direction];
             if (!newPosition)
                 return;
